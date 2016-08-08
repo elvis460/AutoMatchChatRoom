@@ -1,0 +1,51 @@
+body{
+	background-color: #3CC4A0;
+	margin: auto;
+	.icon{
+		width: 100%;
+		height: 200px;
+		background-image: url('http://a2.mzstatic.com/us/r30/Purple49/v4/b7/27/5a/b7275a24-06e9-a6db-9df5-be720416563b/icon175x175.jpeg');
+		background-repeat: no-repeat;
+	}
+	.main{
+	margin: auto;
+	text-align: center;
+		h2{
+			color:#FF5126;
+		}
+		input{
+			width: 300px;
+			height: 30px;
+			color:gray;
+			text-align: center;
+			font-size: 26px;
+		}
+	}
+	.link_path{
+		display: none;
+		margin-top: 7%;
+		text-align: center;
+		.btn{
+			display: inline-block;
+			margin: 15px;
+			padding: 15px;
+			text-align: center;
+			text-decoration: none;
+			background-color: #fa0;
+			box-shadow: 0px 5px 5px  rgba(0,0,0,.3);
+			transition: 0.8s;
+			position: relative;
+			top:0;
+			border-radius: 5%;
+			&:hover{
+				top:4px;
+				box-shadow: 0px 1px 5px  rgba(0,0,0,.3);
+			}
+			.link{
+				text-decoration: none;
+				font-size: 18px;
+				color:#fff;
+			}
+		}
+	}
+}

@@ -9,11 +9,11 @@ App.chat = App.cable.subscriptions.create "ChatChannel",
     switch data.action
       when "chat_start"
         $('.waing_user').hide()
-        $('.user_info').text("Chat started! #{data.msg}.")
+        $('.user_info').text("Chat started!")
         $('#chat_board').show()
       when "chat_ending"
       	$('.user_info').text("User quit and Chat is end !!")
-        #@printMessage("User quit and Chat is end !!")
+        #@printMessage("Anoteger user quit and Chat is end !!")
       else
         $('#messages').append(data['message'])
   
